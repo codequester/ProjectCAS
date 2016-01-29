@@ -1,0 +1,27 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://oauthpid:password123@127.0.0.1:27017/oauth2
+  datasource:
+    url: jdbc:sqlserver://I90680LJCA\SQLEXPRESS;databaseName=oauth
+    username: testusr
+    password: password123
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver   
+  jpa:
+    hibernate:
+      naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
+    properties:    
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2012Dialect    
+
+ldap:
+  contextSource:
+    url: ldap://localhost:10389
+    base: dc=example,dc=com
+    userDn: uid=admin,ou=system
+    password: secret
+
+security:
+  user:
+    password: password
+     

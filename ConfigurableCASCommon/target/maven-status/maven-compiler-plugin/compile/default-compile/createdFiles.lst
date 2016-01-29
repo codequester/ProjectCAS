@@ -1,0 +1,8 @@
+org\dhravid\cas\resource\config\AbstractResourceConfig.class
+org\dhravid\cas\service\AuthServerTokenService.class
+org\dhravid\cas\service\CasTokenService.class
+org\dhravid\cas\service\CasJwtEnhancer.class
+org\dhravid\cas\resource\config\EnableProtectionProcessor.class
+org\dhravid\cas\util\CasUtil.class
+org\dhravid\cas\resource\config\EnableProtection.class
+org\dhravid\cas\resource\config\SampleConfig.class

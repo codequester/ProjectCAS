@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://I90680LJCA\SQLEXPRESS;databaseName=oauth
+    username: testusr
+    password: password123
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver    
+  
